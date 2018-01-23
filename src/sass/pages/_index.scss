@@ -1,3 +1,47 @@
-body{
-    background: greenyellow;
+section.main-image{
+    height:100vh;
+    background-image:url("../img/index/backgroundimg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    .left-arrow{
+        left:20px;
+    }
+    .right-arrow{
+        right:20px;
+    }
+    .arrow{
+        position: absolute;
+        top:55%;
+        .fa{
+            border:1px solid white;
+            color: #fff;
+            line-height:50px;
+            width:50px;
+            font-size:30px;
+        }
+    }
+    .main-content{
+        position: absolute;
+        top:50%;
+        left:0;
+        right:0;
+        margin: auto;
+        width:70%;
+        p{
+            @include text-regular;
+            color: #fff;
+            width:70%;
+            margin: 20px auto;
+        }
+    }
+    h1{
+        color: #ffffff;
+        font-size:40px;
+        text-transform: uppercase;
+    }
+    .button{
+        @include button(#fff)
+    }
 }
