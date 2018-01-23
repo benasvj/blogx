@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background: #fff;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
