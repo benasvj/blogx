@@ -11,3 +11,19 @@
     text-transform:uppercase;
     padding:0 10px;
 }
+@mixin title{
+    color:$color-blue;
+    font-size:35px;
+    text-transform:uppercase;
+    position:relative;
+    text-align:left;
+    &:after{
+        position:absolute;
+        content:"";
+        display:inline-block;
+        left:0;
+        bottom:-5px;
+        width:60px;
+        background:$color-blue;
+    }
+}

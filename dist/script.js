@@ -1,7 +1,7 @@
 const html ={
   backward:document.querySelector(".fa-chevron-left"),
   forward:document.querySelector(".fa-chevron-right"),
-  home:document.querySelector("section.main-image")
+  home:document.querySelector(".main-image")
 }
 
 

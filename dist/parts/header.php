@@ -29,12 +29,13 @@
     <div class="container">
       <img src="img/logo.png" alt="logo">
       <nav>
-        <a href="">home</a>
-        <a href="">about us</a>
-        <a href="">pages</a>
-        <a href="">projects</a>
-        <a href="">blog</a>
-        <a href="">contact us</a>
+        <a href="index.php">home</a>
+        <a href="aboutus.php">about us</a>
+        <a href="pages.php">pages</a>
+        <a href="projects.php">projects</a>
+        <a href="blog.php">blog</a>
+        <a href="news.php">news</a>
+        <a href="contacts.php">contact us</a>
       </nav>
     </div>
   </div>

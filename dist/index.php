@@ -22,9 +22,68 @@
 
 <section class="features">
   <div class="container">
-
+    <div class="wrapper"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper"></div>
+    <div class="wrapper"></div>
   </div>
 </section>
+
+<section class="recent-projects">
+  <div class="container">
+    <h2>recent projects</h2>
+      <div class="slide-container">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+      </div>
+      <nav>
+        <div class="left-arrow"></div>
+        <div class="right-arrow"></div>
+      </nav>
+  </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
+      </div>
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
+      </div>
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
+      </div>
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
+      </div>
+    </div>
+</section>
+
+<section class="blog-posts">
+  <div class="container">
+    <h2>from blog</h2>
+    <div class="post"></div>
+    <div class="post"></div>
+    <nav>
+      <div class="left-arrow"></div>
+      <div class="right-arrow"></div>
+    </nav>
+  </div>
+</section>
+
+<?php include 'parts/footer.php'?>
 
   <script src="script.js"></script>
 </body>
