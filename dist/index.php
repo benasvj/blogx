@@ -22,12 +22,36 @@
 
 <section class="features">
   <div class="container">
-    <div class="wrapper"></div>
-    <div class="wrapper"></div>
-    <div class="wrapper"></div>
-    <div class="wrapper"></div>
-    <div class="wrapper"></div>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <img src="img/logo1.png" alt="logox">
+      <h4>nibh ridiculus</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint consequuntur possimus sequi explicabo error amet cupiditate odio nihil.</p>
+    </div>
+    <div class="wrapper">
+      <img src="img/logo2.png" alt="logox">
+      <h4>grammatica del</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut magnam qui ex aspernatur suscipit voluptates nihil consequatur placeat?</p>
+    </div>
+    <div class="wrapper">
+      <img src="img/logo3.png" alt="logox">
+      <h4>europan lingues</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsa quia fuga exercitationem, ratione hic eligendi sit id.</p>
+    </div>
+    <div class="wrapper">
+      <img src="img/logo4.png" alt="logox">
+      <h4>ipsum quia</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ut dignissimos odit maiores velit voluptates ratione quod sit.</p>
+    </div>
+    <div class="wrapper">
+      <img src="img/logo5.png" alt="logox">
+      <h4>aliquam quaerat</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed harum, consequuntur neque adipisci atque fuga ipsum dolore molestiae!</p>
+    </div>
+    <div class="wrapper">
+      <img src="img/logo6.png" alt="logox">
+      <h4>dolorem eum</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In aspernatur facilis ratione, tempore tenetur ullam repudiandae distinctio ex.</p>
+    </div>
   </div>
 </section>
 

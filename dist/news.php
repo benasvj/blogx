@@ -11,6 +11,11 @@
     </div>
 </section>
 
+<section class="blog-post">
+    <div class="container">
+        
+    </div>
+</section>
 
 <?php include "parts/footer.php"?>
 </body>

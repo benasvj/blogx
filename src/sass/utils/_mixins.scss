@@ -12,18 +12,19 @@
     padding:0 10px;
 }
 @mixin title{
-    color:$color-blue;
+    color: $color-blue;
     font-size:35px;
-    text-transform:uppercase;
-    position:relative;
-    text-align:left;
+    text-transform: uppercase;
+    position: relative;
+    text-align: left;
     &:after{
-        position:absolute;
-        content:"";
-        display:inline-block;
+        position: absolute;
+        content: '';
+        display: inline-block;
         left:0;
         bottom:-5px;
+        height:2px;
         width:60px;
-        background:$color-blue;
+        background: $color-blue;
     }
 }
