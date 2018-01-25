@@ -1,3 +1,3 @@
 <footer>
-    <p>Footer</p>
+    <script src="script.js"></script>
 </footer>

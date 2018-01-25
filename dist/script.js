@@ -4,6 +4,8 @@ const html ={
   home:document.querySelector(".main-image"),
   testimonials:document.querySelector(".testimonials"),
   risingNr:document.querySelector("h3"),
+  btn:document.querySelector(".fa-bars"),
+  menu:document.querySelector(".navigation-menu .container")
 }
 
 
@@ -25,13 +27,12 @@ html.backward.addEventListener("click", function () {
 
 //kilantiems skaiciams testimonials
 var testNr = parseFloat(html.risingNr.textContent);  //issaugota pirmine reiksme
-console.log(testNr);
 html.risingNr.textContent="0";
 
 
 var stop=0;
 document.addEventListener("scroll", function(){
-  if(window.scrollY+window.innerHeight*0.7>html.testimonials.offsetTop && stop==0){
+  if(window.scrollY+window.innerHeight*0.8>html.testimonials.offsetTop && stop==0){
     count=0;
     stop=1;
     rise = setInterval(()=>{
@@ -42,6 +43,10 @@ document.addEventListener("scroll", function(){
         stop=1;
         html.risingNr.textContent=testNr;
       }
-    },100);
+    },50);
   }
+});
+
+html.btn.addEventListener("click",function(){
+  html.menu.classList.toggle("active-menu")
 });

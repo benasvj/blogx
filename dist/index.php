@@ -78,7 +78,7 @@
         <h4>happy clients</h4>
       </div>
       <div class="wrapper">
-        <h3>456</h3>
+        <h3>56</h3>
         <div class="line"></div>
         <h4>happy clients</h4>
       </div>
@@ -90,7 +90,7 @@
       <div class="wrapper">
         <h3>456</h3>
         <div class="line"></div>
-        <h4>happy clients</h4>
+        <h4>projects</h4>
       </div>
     </div>
 </section>

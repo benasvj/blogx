@@ -28,6 +28,7 @@
   <div class="navigation-menu">
     <div class="container">
       <img src="img/logo.png" alt="logo">
+      <i class="fa fa-bars" aria-hidden="true"></i>
       <nav>
         <a href="index.php">home</a>
         <a href="aboutus.php">about us</a>
