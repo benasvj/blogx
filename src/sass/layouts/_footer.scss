@@ -1,0 +1,81 @@
+section.get-in-touch{
+background:$color-blue;
+    .container{
+        display:flex;
+        justify-content:space-between;
+        padding:35px 0;
+        align-items:center;
+    }
+    h6{
+        color:#fff;
+        text-transform:uppercase;
+        line-height:40px;
+        margin-left:30px;
+        font-size:24px;
+    }
+    .button{
+        @include button(#fff);
+        @include click;
+        font-size:14px;
+    }
+}
+section.bottom-menu{
+background:#161616;
+text-align:left;
+padding-top:55px;
+padding-bottom:50px;
+    .container{
+        display:flex;
+        justify-content:space-between;
+        font-size:14px;
+        color:#fff;
+    }
+    .wrapper{
+        width:25%;
+        padding-right:55px
+    }
+    h6{
+        font-size:20px;
+        font-weight:700;
+        color:$color-blue;
+        text-transform:uppercase;
+        margin-bottom:30px;
+    }
+    p{
+        line-height:20px;
+        padding-bottom:12px;
+    }
+    li{
+        padding-bottom:12px;
+        @include click;
+        &:before{
+            content:'\f054';
+            font-family: "FontAwesome";
+            font-size:10px;
+            color:$color-blue;
+            padding-right:5px;
+        }
+    }
+    .fa{
+        padding-bottom:7px;
+        padding-right:3px;
+        color:$color-blue;
+    }
+    .fa-phone{
+        padding-left:3px;
+    }
+    .fa-map-marker{
+        padding-left:5px;
+    }
+}
+section.credits{
+background:#000000;
+padding:32px 0;
+    p{
+        font-size:13px;
+        color:#fff;
+    }
+    span i{
+        color:#ff0000;
+    }
+}

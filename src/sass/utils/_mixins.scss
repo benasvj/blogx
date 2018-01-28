@@ -28,3 +28,7 @@
         background: $color-blue;
     }
 }
+@mixin click{
+    user-select: none;
+    cursor:pointer;
+}

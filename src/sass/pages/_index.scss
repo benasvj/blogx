@@ -20,6 +20,7 @@ section.main-image{
             line-height:50px;
             width:50px;
             font-size:30px;
+            @include click;
         }
     }
     .main-content{
@@ -33,6 +34,7 @@ section.main-image{
             @include text-regular;
             color: #fff;
             width:70%;
+            line-height:20px;
             margin: 20px auto;
         }
     }
@@ -42,23 +44,25 @@ section.main-image{
         text-transform: uppercase;
     }
     .button{
-        @include button(#fff)
+        @include button(#fff);
+        @include click;
     }
 }
 
 section.features{
     background:#f8f8f8;
+    padding-top:30px;
     .container{
         display:flex;
         flex-wrap:wrap;
         justify-content:space-between;
-        padding-bottom:70px;
+        padding-bottom:80px;
     }
     .wrapper{
         width:30%;
         padding-top:65px;
         position:relative;
-        margin-top:100px;
+        margin-top:60px;
     }
     img{
         width:44px;
@@ -83,17 +87,70 @@ section.features{
 }
 
 section.recent-projects{
-    padding:80px 0;
+    margin-top:80px;
+    padding-bottom:85px;
     .container{
-
+        position:relative;
     }
     h2{
         @include title;
+    }
+    .slide-container{
+        display:flex;
+        justify-content:space-between;
+        overflow:hidden;
+        padding-top:30px;
+    }
+    .slide{
+        width:32%;
+        position:relative;
+        overflow:hidden;
+        &:hover .fa-search-plus{
+            opacity:1;
+        }
+    }
+    img{
+        width:100%;
+        transition:1s;
+        &:hover{
+            transform:scale(1.5);
+            transition:1s;
+        }
+    }
+    .fa-search-plus{
+        color:#fff;
+        font-size:28px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+    }
+    .arrow{
+        position:absolute;
+        @include click;
+        bottom:-33px;
+        .fa{
+            line-height:15px;
+            color:#fff;
+            background:$color-blue;
+            padding:5px 7px;
+            width:15px;
+            font-size:12px;
+        }
+    }
+    .right-arrow{
+        right:0;
+    }
+    .left-arrow{
+        right:32px;
     }
 }
 
 section.testimonials{
     background:$color-blue;
+    padding-top:58px;
+    padding-bottom:78px;
     .container{
         display:flex;
     }
@@ -104,7 +161,6 @@ section.testimonials{
         color:#fff;
         font-size:50px;
         text-transform:uppercase;
-        padding-top:35px;
     }
     .line{
         height:1px;
@@ -115,18 +171,81 @@ section.testimonials{
     h4{
         color:#fff;
         font-size:26px;
-        text-transform:uppercase;
-        padding-bottom:50px; 
+        text-transform:uppercase; 
     }
 }
 
 section.blog-posts{
-    padding:50px 0;
+    margin-top:80px;
+    padding-bottom:120px;
     .container{
-
+        position:relative;
     }
     h2{
         @include title;
     }
+    .post-container{
+        display:flex;
+        justify-content:space-between;
+        margin-top:25px;
+    }
+    .post{
+        width:46%;
+        background:$color-postbackground;
+    }
+    .post-text{
+        float:right;
+        width:55%;
+        padding:40px 10px 0px 10px;
+        text-align:left;
+        position:relative;
+    }
+    .date{
+        color:$color-text;
+        margin-bottom:5px;
+        font-style:italic;
+        font-size:14px;
+    }
+    .read-more{
+        font-size:14px;
+        font-weight:700;
+        text-transform:uppercase;
+        color:$color-blue;
+        position:absolute;
+        right:20px;
+        bottom:-25px;
+        @include click;
+    }
+   .post-image{
+       float:left;
+       width:40%;
+       img{
+           width:100%;
+           object-fit: cover;
+       }
+   }
+    p{
+        color:$color-text;
+        font-size:14px;
+        line-height:28px;
+    }
+    .arrow{
+        position:absolute;
+        @include click;
+        bottom:-33px;
+        .fa{
+            line-height:15px;
+            color:#fff;
+            background:$color-blue;
+            padding:5px 7px;
+            width:15px;
+            font-size:12px;
+        }
+    }
+    .right-arrow{
+        right:0;
+    }
+    .left-arrow{
+        right:32px;
+    }
 }
-

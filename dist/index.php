@@ -12,8 +12,7 @@
   </div>
   <div class="main-content">
     <h1>We don't care about your business</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorem, ducimus eius expedita impedit perferendis provident quia quod tenetur voluptas
-    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis est ut ab aperiam? Iusto, corrupti odio ut commodi corporis dolores temporibus ex dolorum facere!</p>
     <div class="button">
       about us
     </div>
@@ -58,14 +57,27 @@
 <section class="recent-projects">
   <div class="container">
     <h2>recent projects</h2>
-      <div class="slide-container">
-        <div class="slide"></div>
-        <div class="slide"></div>
-        <div class="slide"></div>
+    <div class="slide-container">
+      <div class="slide">
+        <img src="img/slides/1.jpeg" alt="photo">
+        <i class="fa fa-search-plus" aria-hidden="true"></i>
       </div>
+      <div class="slide">
+        <img src="img/slides/2.jpeg" alt="photo">
+        <i class="fa fa-search-plus" aria-hidden="true"></i>
+      </div>
+      <div class="slide">
+        <img src="img/slides/3.jpeg" alt="photo">
+        <i class="fa fa-search-plus" aria-hidden="true"></i>
+      </div>
+    </div>
       <nav>
-        <div class="left-arrow"></div>
-        <div class="right-arrow"></div>
+        <div class="left-arrow arrow">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="right-arrow arrow">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
       </nav>
   </div>
 </section>
@@ -80,17 +92,17 @@
       <div class="wrapper">
         <h3>56</h3>
         <div class="line"></div>
-        <h4>happy clients</h4>
-      </div>
-      <div class="wrapper">
-        <h3>456</h3>
-        <div class="line"></div>
-        <h4>happy clients</h4>
-      </div>
-      <div class="wrapper">
-        <h3>456</h3>
-        <div class="line"></div>
         <h4>projects</h4>
+      </div>
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
+      </div>
+      <div class="wrapper">
+        <h3>456</h3>
+        <div class="line"></div>
+        <h4>happy clients</h4>
       </div>
     </div>
 </section>
@@ -98,17 +110,44 @@
 <section class="blog-posts">
   <div class="container">
     <h2>from blog</h2>
-    <div class="post"></div>
-    <div class="post"></div>
+    <div class="post-container">
+      <div class="post">
+        <div class="post-image">
+          <img src="img/fromblogs/1.jpeg" alt="new blog">
+        </div>
+        <div class="post-text">
+          <div class="date">23 oct 2015</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum facilis ipsum delectus rem. Vel expedita corrupti quas nisi nostrum officiis dicta?</p>
+          <div class="read-more">read more</div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="post">
+        <div class="post-image">
+          <img src="img/fromblogs/2.jpeg" alt="new blog">
+        </div>
+        <div class="post-text">
+          <div class="date">23 oct 2015</div>
+          <p>Lorem ipsum dolor sit, amet consectetur. Fuga voluptas nihil esse corporis, delectus, nisi, voluptates consequuntur hic amet iure? Accusamus.</p>
+          <div class="read-more">read more</div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
     <nav>
-      <div class="left-arrow"></div>
-      <div class="right-arrow"></div>
+      <div class="left-arrow arrow">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="right-arrow arrow">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
     </nav>
   </div>
 </section>
 
+
 <?php include 'parts/footer.php'?>
 
-  <script src="script.js"></script>
+
 </body>
 </html>
