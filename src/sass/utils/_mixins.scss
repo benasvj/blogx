@@ -56,3 +56,17 @@
     text-align:right;
     padding:27px 0;
 }
+
+@mixin blog-text{
+    font-size:14px;
+    color:#4b4b4b;
+    line-height:22px;
+    text-align:left;
+}
+
+@mixin blog-title{
+    padding:15px 0;
+    font-size:24px;
+    text-align:left;
+    font-weight:700;
+}

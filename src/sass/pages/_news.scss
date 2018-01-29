@@ -1,0 +1,179 @@
+section.blogs-page{
+    .container{
+
+    }
+    .blogs-left{
+        float:left;
+        width:64%;
+        position:relative;
+        padding-bottom:90px;
+        .wrapper{
+            width:99%;
+            position:relative;
+            padding-bottom:140px;
+        }
+        .blog-photo{
+            width:100%;
+        }
+        img{
+            width:100%;
+        }
+        .blog-date{
+            width:12%;
+            background:$color-blue;
+            position:absolute;
+            top:270px;
+            left:0;
+            p{
+                font-size:12px;
+                color:#fff;
+                text-align:left;
+                padding:10px 5px;
+                line-height:15px;
+            }    
+        }
+        .blog-title{
+            @include blog-title;
+        }
+        .blog-text{
+            @include blog-text;
+        }
+        .read-more{
+                @include button(#fff);
+                background:$color-blue;
+                font-size:12px;
+                font-weight:700;
+                padding:0px 25px;
+                position:absolute;
+                right:0;
+                bottom:95px;
+                @include click;
+        }
+        .page-turn{
+        position:absolute;
+        right:0;
+        bottom:90px;
+            .turning-number{
+                font-size:14px;
+                color:#666666;
+                display:inline-block;
+                border:1px solid $color-blue;
+                padding:5px 10px;
+                @include click;
+            }
+            .next{
+                font-size:14px;
+                display:inline-block;
+                color:#fff;
+                background:$color-blue;
+                padding:5px 9px;
+            }
+            .fa{
+                @include click;
+            }
+        }
+    }
+    .blogs-right{
+        float:right;
+        width:31%;
+        padding-left:15px;
+        h2{
+            @include blog-title;
+            color:#4b4b4b;
+            text-transform:capitalize;
+            padding:25px 0;
+        }
+    }
+    .input-container{
+        position:relative;
+        background:#ddd;
+        padding:0 0px;
+    }
+    #searchinput{
+        background:#ebebeb;
+        height:40px;
+        width:360px;
+    }
+    input::placeholder{
+        color:#222222;
+        font-size:14px;
+        font-style:italic;
+        text-align:left;
+    }
+    .fa-search{
+        position:absolute;
+        bottom:6px;
+        right:5px;
+        width:24px;
+        height:24px;
+    }
+    .newposts{
+        width:95%;
+    }
+    .wrapper{
+        width:99%;
+        padding-bottom:25px;
+        p{
+            @include blog-text;
+            color:#222222;
+        }
+        span{
+            text-transform:uppercase;
+            font-weight:700;
+        }
+    }
+    .postimage{
+        width:20%;
+        vertical-align:top;
+        display:inline-block;
+        img{
+            width:100%;
+        }
+    }
+    .postinfo{
+        width:75%;
+        display:inline-block;
+        padding-left:10px;
+    }
+    .latestprojects{
+        h2{
+            @include blog-title;
+            color:#4b4b4b;
+            text-transform:uppercase;
+            padding:25px 0;
+        }
+    }
+    .latestprojects-block{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        .projectx{
+            width:47%;
+            padding-bottom:18px;
+        }
+        img{
+            width:100%;
+        }
+    }
+    .blog-categories{
+        h2{
+            @include blog-title;
+            text-transform:capitalize;
+            color:#4b4b4b;
+        }
+        li{
+            text-align:left;
+            color:#4b4b4b;
+            line-height:2;
+            font-size:14px;
+            @include click;
+            &:before{
+                content:'\f054';
+                font-family: "FontAwesome";
+                font-size:10px;
+                color:$color-blue;
+                padding-right:5px;
+            }
+        }
+    }
+}
