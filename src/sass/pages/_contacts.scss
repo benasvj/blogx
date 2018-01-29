@@ -1,0 +1,44 @@
+section.contacts-page{
+    .container{
+        position:relative;
+        padding-bottom:100px;
+    }
+    h2{
+        @include title;
+    }
+    .contact-form{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        width:100%;
+        padding:45px 0;
+    }
+    .forma{
+        height:40px;
+        width:48.5%;
+        margin-bottom:20px
+    }
+    .forma::placeholder{
+        font-size:14px;
+        color:#575757;
+        padding-left:20px;
+    }
+    textarea{
+        width:100%;
+    }
+    textarea::placeholder{
+        color:#575757;
+        font-size: 15px;
+        font-weight:500;
+        padding-left:12px;
+        height:140px;
+    }
+    .button{
+        @include button(#fff);
+        background:$color-blue;
+        padding:0px 35px;
+        position:absolute;
+        left:0;
+        bottom:75px;
+    }
+}
