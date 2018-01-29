@@ -34,7 +34,7 @@
             </div>
             <div class="last-wrapper">
                 <h6>get in touch</h6>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quaerat illum ex!</p>
+                <p class="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quaerat illum ex!</p>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <a>84 Street, City, State 24813</a><br>
                 <i class="fa fa-phone" aria-hidden="true"></i>

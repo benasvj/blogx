@@ -28,7 +28,31 @@
         background: $color-blue;
     }
 }
+@mixin title2{
+    color: $color-blue;
+    font-size:35px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom:40px;
+}
 @mixin click{
     user-select: none;
     cursor:pointer;
+}
+
+@mixin current-title{
+    float:left;
+    color:#fff;
+    font-size:24px;
+    text-transform:uppercase;
+    text-align:left;
+    padding:24px 0;
+}
+
+@mixin current-path{
+    float:right;
+    font-size:14px;
+    color:#fff;
+    text-align:right;
+    padding:27px 0;
 }
