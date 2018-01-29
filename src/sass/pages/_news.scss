@@ -30,7 +30,11 @@ section.blogs-page{
                 text-align:left;
                 padding:10px 5px;
                 line-height:15px;
-            }    
+            }
+            span{
+                font-weight:400;
+                text-transform:capitalize;
+            } 
         }
         .blog-title{
             @include blog-title;
