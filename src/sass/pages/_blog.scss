@@ -1,8 +1,9 @@
 section.blogs-page{
     .blog-text{
         p{
-            padding-bottom:15px;
+            padding-bottom:19px;
             color:#4b4b4b;
+            line-height:24px;
         }
         span{
             font-weight:400;
@@ -12,4 +13,89 @@ section.blogs-page{
             color:#4b4b4b;
         }
     }
+    .socials{
+        text-align:left;
+        margin-right:15px;
+        padding:30px 0;
+    }
+    h5{
+        display:inline-block;
+        font-size:14px;
+        font-weight:700;
+        text-transform:uppercase;
+        color:$color-blue;
+        padding-right:15px;
+        @include click;
+    }
+    .fb{
+        @include socials(#2f6ae0);
+    }
+    .tw{
+        @include socials(#0ea9fd);
+    }
+    .google{
+        @include socials(#c73252);
+    }
+    .insta{
+        @include socials(#595959);
+    }
+    .addcomment{
+        h4{
+            font-size:24px;
+            font-weight:700;
+            text-transform:uppercase;
+            color:$color-blue;
+            text-align:left;
+            margin-top:15px;
+        }
+        p{
+            padding:10px 0;
+            font-size:13px;
+            color:#4b4b4b;
+        }
+        span{
+            color:red;
+        }
+        .comment-inputs{
+            display:flex;
+            justify-content:space-between;
+            margin-top:25px;
+        }
+        input{
+            width:32%;
+            height:40px;
+            margin-bottom:10px;
+        }
+        .forma::placeholder{
+            font-size:14px;
+            color:#575757;
+            padding-left:20px;
+            font-style:initial;
+        }
+        textarea{
+            width:99.2%;
+        }
+        textarea::placeholder{
+            color:#575757;
+            font-size: 15px;
+            font-weight:500;
+            padding:10px 12px;
+            height:140px;
+        }
+        .submit{
+            line-height:40px;
+            font-size:14px;
+            font-weight:700;
+            border:1px solid $color-blue;
+            background:$color-blue;
+            color:#fff;
+            text-transform:uppercase;
+            letter-spacing:1px;
+            text-align:center;
+            @include click;
+            width:180px;
+            margin-top:15px;
+        }
+    }
+
 }

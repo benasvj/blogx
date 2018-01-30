@@ -32,7 +32,6 @@
       <nav>
         <a href="index.php">home</a>
         <a href="aboutus.php">about us</a>
-        <a href="pages.php">pages</a>
         <a href="projects.php">projects</a>
         <a href="blog.php">blog</a>
         <a href="news.php">news</a>

@@ -36,6 +36,24 @@
                     <p>psum dolor sit amet, consectetur adipisicing elit. Dolorum, voluptatem optio quasi labore consequuntur pellendus perspiciatis error ipsa fuga. Quasi veniam.Echo Park pork belly irony tilde organic Truffawayfarers. Leggings Truffaut ugh, PBRB mixtape 3 wolf moon Schlitz. Cray biodiesel cred, locavore listicle cronut 3 wolf moon small batch paleo</p>
                     <p>Tumblr literally kogi deep v. Bespoke migas four dollar toast, raw denim gluten-free beard hella cold-pressed lumbersexual vinyl biodiesel scenester lomo fanny pack.</p>
                 </div>
+                <div class="socials">
+                    <h5>share with</h5>
+                    <div class="fb">Facebook</div>
+                    <div class="tw">Twitter</div>
+                    <div class="google">Google Plus</div>
+                    <div class="insta">Instagram</div>
+                </div>
+                <div class="addcomment">
+                    <h4>submit a comment</h4>
+                    <p>Your email address will not be published. Required fields are marked <span>*</span></p>
+                    <div class="comment-inputs">
+                        <input class="forma" type="text" placeholder="Name*">
+                        <input class="forma" type="text" placeholder="E-mail*">
+                        <input class="forma" type="text" placeholder="Website">
+                    </div>
+                    <textarea name="textarea" rows="10" cols="50" placeholder="Your Comment" class="messagebox"></textarea>
+                    <div class="submit">submit comment</div>
+                </div>
             </div>
         </div>
 
