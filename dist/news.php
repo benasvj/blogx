@@ -17,46 +17,37 @@
         <div class="blogs-left">
             <div class="wrapper">
                 <div class="blog-photo">
-                    <img src="img/blog/1.jpeg" alt="blog photo">
                 </div>
                 <div class="blog-date">
                     <p>DATE <br><span>March 24, 2015</span></p>
                 </div>
                 <div class="blog-title">
-                    <h2>Steps Toward Developing A Content Strategy</h2>
                 </div>
                 <div class="blog-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis ea est illum ipsa itaque liberop tiovolup Conseq uuntur deserunt expedita, fugiat hic illum porro quidem quis recusandae vero? Aliquiassumenda cum delectus eaque eligendi, enim eum excepturi fugit illum impedit in iste laudantium modi natus, nisi nobis gfy  g obcaecati praesentium quis reiciendis rerum sapiente […]</p>
                 </div>
                 <div class="read-more">read more</div>
             </div>
             <div class="wrapper">
                 <div class="blog-photo">
-                    <img src="img/blog/2.jpeg" alt="blog photo">
                 </div>
                 <div class="blog-date">
                     <p>DATE <br><span>March 24, 2015</span></p>
                 </div>
                 <div class="blog-title">
-                    <h2>Looking for Developers? Try This Geeky Community</h2>
                 </div>
                 <div class="blog-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis ea est illum ipsa itaque liberop tiovolup Conseq uuntur deserunt expedita, fugiat hic illum porro quidem quis recusandae vero? Aliquiassumenda cum delectus eaque eligendi, enim eum excepturi fugit illum impedit in iste laudantium modi natus, nisi nobis gfy  g obcaecati praesentium quis reiciendis rerum sapiente […]</p>
                 </div>
                 <div class="read-more">read more</div>
             </div>
             <div class="wrapper">
                 <div class="blog-photo">
-                    <img src="img/blog/3.jpeg" alt="blog photo">
                 </div>
                 <div class="blog-date">
                     <p>DATE <br><span>March 24, 2015</span></p>
                 </div>
                 <div class="blog-title">
-                    <h2>How to Spend Less Than an Hour a Day on Email Marketing</h2>
                 </div>
                 <div class="blog-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis ea est illum ipsa itaque liberop tiovolup Conseq uuntur deserunt expedita, fugiat hic illum porro quidem quis recusandae vero? Aliquiassumenda cum delectus eaque eligendi, enim eum excepturi fugit illum impedit in iste laudantium modi natus, nisi nobis gfy  g obcaecati praesentium quis reiciendis rerum sapiente […]</p>
                 </div>
                 <div class="read-more">read more</div>
             </div>
@@ -144,6 +135,8 @@
     </div>
 </section>
 
+<script src="jquery-3.3.1.min.js"></script>
+<script src="script2.js"></script>
 <?php include "parts/footer.php"?>
 </body>
 </html>

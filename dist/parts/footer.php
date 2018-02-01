@@ -50,4 +50,3 @@
         <p>Made with <span><i class="fa fa-heart" aria-hidden="true"></i></span> by Revolthemes.net All Rights Reserved</p>
     </section>
 </footer>
-<script src="script.js"></script>
